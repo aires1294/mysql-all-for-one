@@ -1,1 +1,1 @@
-SELECT FROM * purchase_orders;
+SELECT notes FROM  purchase_orders where notes IS NOT NULL;
